@@ -7,7 +7,9 @@ exports.createBrowserWindow = () => {
     width: 1024,
     height: 768,
     icon: path.join(__dirname, "assets/icons/png/64x64.png"),
-    //titleBarStyle: 'hidden',
+    autoHideMenuBar:true,
+    titleBarStyle: 'hidden',
+    transparent:true,
     //frame: false,
     backgroundColor: "#fff",
     webPreferences: {

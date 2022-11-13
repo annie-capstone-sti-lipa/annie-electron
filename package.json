@@ -1,8 +1,8 @@
 {
   "name": "electron-webview",
-  "productName": "Electron webview",
+  "productName": "client-annie",
   "version": "1.0.0",
-  "description": "A simple Electron webview application",
+  "description": "Electron client for Annie",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,12 +11,9 @@
     "package-linux": "npx electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds",
     "create-installer-mac": "npx electron-installer-dmg ./release-builds/Electron\\ webview-darwin-x64/Electron\\ webview.app electron-webview --out=release-builds --overwrite --icon=assets/icons/mac/icon.icns"
   },
-  "repository": "https://github.com/cba85/electron-webview",
+  "repository": "https://github.com/annie-capstone-sti-lipa/annie-flutter.git",
   "keywords": [
-    "Electron",
-    "webview",
-    "tutorial",
-    "demo"
+    "Anime", "Assistant"
   ],
   "author": "GitHub",
   "license": "MIT",
