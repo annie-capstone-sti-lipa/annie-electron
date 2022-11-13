@@ -13,12 +13,14 @@
   },
   "repository": "https://github.com/annie-capstone-sti-lipa/annie-flutter.git",
   "keywords": [
-    "Anime", "Assistant"
+    "Anime",
+    "Assistant"
   ],
   "author": "GitHub",
   "license": "MIT",
   "devDependencies": {
     "electron": "^21.0.0",
-    "electron-installer-dmg": "^4.0.0"
+    "electron-installer-dmg": "^4.0.0",
+    "electron-packager": "^17.1.1"
   }
 }
